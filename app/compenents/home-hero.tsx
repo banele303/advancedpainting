@@ -19,7 +19,7 @@ export default function HomeHero() {
 
         <div className="relative h-screen">
 
-            <div className="relative h-[60vh] md:h-[100vh] w-full">
+            <div className="relative h-[80vh] md:h-[100vh] w-full">
                 <Image quality={100} src={PaintingHero} alt="Home hero painting Image" className="brightness-50 md:h-[100vh] h-full w-full" />
 
 
@@ -50,7 +50,7 @@ export default function HomeHero() {
                                     Quality & Professionalism Guaranteed
                                     </p>
                                     <div className="flex flex-col justify-start mt-6 px-4 md:px-[4rem] ml-[1rem] md:ml-[-4rem]">
-                                        <button className="bg-blue-500 no-underline group w-[15rem] cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6 text-white inline-block">
+                                        <button className="bg-blue-500 no-underline group w-[6rem] md:w-[15rem] cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6 text-white inline-block">
                                             <span className="absolute inset-0 overflow-hidden rounded-full">
                                                 <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                                             </span>
